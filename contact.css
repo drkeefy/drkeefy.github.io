@@ -1,12 +1,15 @@
+/* Code / ody*/
 body {
   margin: 0;
   text-align: center;
   }
+/* Code / Header*/
   h1 {
     text-shadow: 2px 2px 5px red;
   }h1 {
     text-shadow: 2px 2px 5px red;
   }
+  /* Code / Menu Nav*/
   ul {
     list-style-type: none;
     margin: 0;

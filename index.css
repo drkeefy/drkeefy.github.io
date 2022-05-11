@@ -1,11 +1,11 @@
+/* Code / Body*/
 body {
 margin: 0;
 text-align: center;
 }
 
-.blue {
-    text-decoration: none;
-}
+
+/* Code / Menu Nav*/}
 ul {
     list-style-type: none;
     margin: 0;
@@ -30,7 +30,7 @@ ul {
   li a:hover {
     background-color: #111;
   }
-  
+  /* Code / Header */
   h1 {
     text-shadow: 2px 2px 5px red;
   }h1 {
