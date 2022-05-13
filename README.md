@@ -11,6 +11,14 @@ This is the official, "Keith Khaotic," website. The eventual buildup, and predec
 
 Keith Khaotic, and various other developers tied together, are working towards ensuring that this website becomes a perfect contact page, social card, and information site. It'll eventually build the platform that PGWECN will come off of.
 
+# Contact
+
+You can contact the website manager through the following ways:
+
+1. [Discord](https:/dsc.gg/pgwecn)
+2. [Guilded](https://guilded.gg/Keith)
+3. [Email](mailto:keithbussyness@gmail.com)
+
 
 # Special Thanks:
 
