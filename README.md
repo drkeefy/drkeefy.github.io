@@ -11,19 +11,33 @@ This is the official, "Keith Khaotic," website. The eventual buildup, and predec
 
 Keith Khaotic, and various other developers tied together, are working towards ensuring that this website becomes a perfect contact page, social card, and information site. It'll eventually build the platform that PGWECN will come off of.
 
+Built with Javascript, HTML, CSS.
+
 # Contact
 
 You can contact the website manager through the following ways:
 
-1. [Discord](https:/dsc.gg/pgwecn)
-2. [Guilded](https://guilded.gg/Keith)
-3. [Email](mailto:keithbussyness@gmail.com)
+• [Discord](https:/dsc.gg/pgwecn)
+• [Guilded](https://guilded.gg/Keith)
+• [Email](mailto:keithbussyness@gmail.com)
+
+
+# Support
+
+You can support this project in multiple ways! Specifically, follow [Keith](https://github.com/KeithKhaotic), to show him your appreciation! You can also follow PGWECN through some of the ways below:
+
+• [Twitter](https://twitter.com/pgwecnpro)
+• [YouTube]()
+• [Twitch](https://twitch.tv/pgwecn)
+• [Github](https://github.com/pgwecn)
+
 
 
 # Special Thanks:
+These are some of the people helping with the Keith Github projects, or even with the PGWECN projects, show them some love!
 
-1. [WinterWizzardVT](https://github.com/xwinterwizzardx)
-2. [Tball(Blanks)](https://github.com/tball1)
-3. [Callemkay](https://github.com/callemkay)
+• [WinterWizzardVT](https://github.com/xwinterwizzardx)
+• [Tball(Blanks)](https://github.com/tball1)
+• [Callemkay](https://github.com/callemkay)
 
 
