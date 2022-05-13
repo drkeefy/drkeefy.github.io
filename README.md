@@ -7,15 +7,15 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/KeithKhaotic/KeithKhaotic.github.io)
 
 # Coding a Website....kind of...
-This is the official, "Keith Khaotic," website. The eventual buildup, and predecessor for ![PGWECN](https://github.com/pgwecn)'s professional website.
+This is the official, "Keith Khaotic," website. The eventual buildup, and predecessor for [PGWECN](https://github.com/pgwecn)'s professional website.
 
 Keith Khaotic, and various other developers tied together, are working towards ensuring that this website becomes a perfect contact page, social card, and information site. It'll eventually build the platform that PGWECN will come off of.
 
 
 # Special Thanks:
 
-1. ![WinterWizzardVT](https://github.com/xwinterwizzardx)
-2. ![Tball(Blanks)](https://github.com/tball1)
-3. ![Callemkay](https://github.com/callemkay)
+1. [WinterWizzardVT](https://github.com/xwinterwizzardx)
+2. [Tball(Blanks)](https://github.com/tball1)
+3. [Callemkay](https://github.com/callemkay)
 
 
