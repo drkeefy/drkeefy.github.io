@@ -7,3 +7,4 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/KeithKhaotic/KeithKhaotic.github.io)
 
 Coding a Website....kind of...
+
