@@ -7,3 +7,9 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/KeithKhaotic/KeithKhaotic.github.io)
 
 Coding a Website....kind of...
+
+
+
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KeithKhaotic)](https://keithkhaotic.github.io)
+
