@@ -18,7 +18,9 @@ Built with Javascript, HTML, CSS.
 You can contact the website manager through the following ways:
 
 • [Discord](https:/dsc.gg/pgwecn)
+
 • [Guilded](https://guilded.gg/Keith)
+
 • [Email](mailto:keithbussyness@gmail.com)
 
 
@@ -27,8 +29,11 @@ You can contact the website manager through the following ways:
 You can support this project in multiple ways! Specifically, follow [Keith](https://github.com/KeithKhaotic), to show him your appreciation! You can also follow PGWECN through some of the ways below:
 
 • [Twitter](https://twitter.com/pgwecnpro)
+
 • [YouTube]()
+
 • [Twitch](https://twitch.tv/pgwecn)
+
 • [Github](https://github.com/pgwecn)
 
 
@@ -37,7 +42,9 @@ You can support this project in multiple ways! Specifically, follow [Keith](http
 These are some of the people helping with the Keith Github projects, or even with the PGWECN projects, show them some love!
 
 • [WinterWizzardVT](https://github.com/xwinterwizzardx)
+
 • [Tball(Blanks)](https://github.com/tball1)
+
 • [Callemkay](https://github.com/callemkay)
 
 
