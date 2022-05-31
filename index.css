@@ -7,7 +7,7 @@
     margin-left: 10%;
     margin-right: 10%;
     list-style: none;
-    background-color: red;
+    background-color: crimson;
     border: 0px;
     box-shadow: 2px 2px 8px black;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,8 +49,7 @@
         padding: 1%;
         font-weight: bold;
         float: left;
-        box-shadow: 2px 2px 8px black;
-        background-color: crimson;
+        box-shadow: 2px 2px 8px crimson;
         color:white;
         margin-bottom: 25px;
         margin-left: 25px;
@@ -65,7 +64,7 @@
     }
 
     .block-base h1 {
-        color:white;
+        color: white;
         font-weight: bolder;
         padding-bottom: 50px;
         font-size: large;
