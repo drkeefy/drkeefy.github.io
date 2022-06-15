@@ -30,7 +30,7 @@ You can support this project in multiple ways! Specifically, follow [Keith](http
 
 • [Twitter](https://twitter.com/pgwecnpro)
 
-• [YouTube]()
+• [YouTube](https://bit.ly/2VXMxzH)
 
 • [Twitch](https://twitch.tv/pgwecn)
 
