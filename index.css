@@ -57,6 +57,7 @@
 
     .block-big {
         margin-right:10%;
+        font-family: "Lucida Console", "Courier New", monospace;
     }
 
     .block-initial-padding {
@@ -83,7 +84,6 @@
   .block-base h1 a:hover {
     text-decoration: none;
     color:#ccc;
-   
 }
 
 
