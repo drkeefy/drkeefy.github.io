@@ -1,10 +1,13 @@
 body{
     background: navajowhite;
     background-size: cover;
-    font-family: 'Trebuchet MS', sans-serif; 
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: x-large; 
   }
   .container{
     display: inline-block;
+    text-align: center;
+    
   }
   .typed-out{
     overflow: hidden;
@@ -19,4 +22,8 @@ body{
     from { width: 0 }
     to { width: 100% }
   }
+
+
+  
+
 
