@@ -41,7 +41,7 @@
 .blog {
     background-color: goldenrod;
 
-    border-radius: 50px;
+    border-radius: 25px;
 
    margin: auto;
 
@@ -83,7 +83,7 @@ body {
     /* For mobile phones: */
     .navbar, .blog,  {
       width: 100%;
-      word-break: break-word;
+
     }
   }
 
