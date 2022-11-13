@@ -24,3 +24,18 @@ hr.rounded {
   border-top: 8px solid #bbb;
   border-radius: 5px;
 }
+
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  body, .typed-out, .container, hr.rounded {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  body, .typed-out, .container, hr.rounded {
+    width: 80%;
+    padding: 0;
+  }
