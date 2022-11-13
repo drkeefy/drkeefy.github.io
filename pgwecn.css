@@ -83,6 +83,7 @@ body {
     /* For mobile phones: */
     .navbar, .blog,  {
       width: 100%;
+      word-break: break-word;
     }
   }
 
