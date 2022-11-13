@@ -87,6 +87,7 @@ body {
     /* For mobile phones: */
     .navbar, .blog, .text, .title {
       width: 100%;
+      margin: auto;
     }
   }
 
