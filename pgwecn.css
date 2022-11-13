@@ -88,6 +88,8 @@ body {
     /* For mobile phones: */
     .navbar, .blog, .blog .title, .blog .text, .text, .title {
       width: 100%;
+      margin: auto;
+      padding: 10px;
     }
   }
 
