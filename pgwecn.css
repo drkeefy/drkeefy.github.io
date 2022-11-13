@@ -88,7 +88,10 @@ body {
     /* For mobile phones: */
     .navbar, .blog, .blog .title, .blog .text, .text, .title {
       width: 100%;
-      text-align: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
     }
   }
 
