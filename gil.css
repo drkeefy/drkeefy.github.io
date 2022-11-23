@@ -86,14 +86,15 @@ hr.rounded {
 
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
-    body, .typed-out, .container, hr.rounded {
+    .navbar, .blog,  {
       width: 100%;
+
     }
   }
-  
+
   @media only screen and (max-width:800px) {
     /* For tablets: */
-    body, .typed-out, .container, hr.rounded {
+    .navbar, .blog,  .text, .title {
       width: 80%;
       padding: 0;
     }
