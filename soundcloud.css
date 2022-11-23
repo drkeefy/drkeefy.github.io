@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Trebuchet MS', sans-serif; 
-    background-image: url('https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/Social%20icons/lofi.gif?raw=true');
+    background-image: linear-gradient(to bottom, orange, white);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

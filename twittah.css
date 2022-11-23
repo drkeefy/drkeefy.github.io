@@ -1,0 +1,44 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif; 
+    background-image: linear-gradient(to bottom, rgb(0, 129, 204), white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.top {
+    border-radius: 50%;
+    border: 5px solid #555;
+  }
+
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+    width: 800px;
+  }
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    bottom: 0;
+    width: 40%;
+    background-color: cadetblue;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+  }
+
+  
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+      .footer {
+      width: 100%;
+
+    }
+  }
+
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .footer {
+      width: 80%;
+      padding: 0;
+    }
