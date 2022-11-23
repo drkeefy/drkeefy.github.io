@@ -13,10 +13,10 @@ hr.rounded {
   }
 
   .footer {
-    position: fixed;
+    position: center;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 50%;
     background-color: cadetblue;
     color: black;
     text-align: center;
