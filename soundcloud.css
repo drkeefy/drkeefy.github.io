@@ -1,10 +1,14 @@
 img {
     border-radius: 50%;
+    border: 5px solid #555;
   }
 
 body {
     font-family: 'Trebuchet MS', sans-serif; 
-    background-image: linear-gradient(red, orange, white);
+    background-image: url('https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/Social%20icons/lofi.gif?raw=true');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 hr.rounded {
@@ -13,10 +17,11 @@ hr.rounded {
   }
 
   .footer {
-    position: center;
+    margin-left: auto;
+    margin-right: auto;
     left: 0;
     bottom: 0;
-    width: 50%;
+    width: 40%;
     background-color: cadetblue;
     color: black;
     text-align: center;
