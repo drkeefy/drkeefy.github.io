@@ -1,0 +1,24 @@
+img {
+    border-radius: 50%;
+  }
+
+body {
+    font-family: 'Trebuchet MS', sans-serif; 
+    background-image: linear-gradient(red, orange, white);
+}
+
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+  }
