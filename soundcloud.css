@@ -18,9 +18,9 @@ hr.rounded {
     margin-right: auto;
     left: 0;
     bottom: 0;
-    width: 40%;
+    width: 45%;
     background-color: cadetblue;
     color: black;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 10px;
   }
