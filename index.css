@@ -23,6 +23,7 @@ body{
 hr.rounded {
   border-top: 8px solid #bbb;
   border-radius: 5px;
+  width: 800px;
 }
 
 
@@ -42,8 +43,7 @@ hr.rounded {
 
 
   .footer {
-    margin-left: auto;
-    margin-right: auto;
+    position: center;
     left: 0;
     bottom: 0;
     width: 40%;
