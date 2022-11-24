@@ -4,8 +4,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-
-
+}
 .top {
     border-radius: 50%;
     border: 5px solid #555;
@@ -43,3 +42,7 @@ body {
       width: 80%;
       padding: 0;
     }
+
+ body {
+  
+ }
