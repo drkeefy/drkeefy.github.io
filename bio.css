@@ -11,11 +11,56 @@
   margin: 4px 2px;
   font-family: 'Trebuchet MS', sans-serif; 
   border-radius: 40px;
-  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  box-shadow: 0px 0px 2px 2px rgb(196, 68, 201);
+  opacity: 0.5;
   
 }
 .button1:hover {
   background-color:#002ead;
+  transition: 0.7s;
+}
+.button2 {
+    
+  border: none;
+  color: rgb(63, 46, 46);
+  padding: 20px;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-family: 'Trebuchet MS', sans-serif; 
+  border-radius: 40px;
+  box-shadow: 0px 0px 2px 2px rgb(196, 68, 201);
+  opacity: 0.5;
+  
+}
+.button2:hover {
+  background-color:#ad002b;
+  transition: 0.7s;
+}
+
+
+.button3 {
+    
+  border: none;
+  color: white;
+  padding: 20px;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-family: 'Trebuchet MS', sans-serif; 
+  border-radius: 40px;
+  box-shadow: 0px 0px 2px 2px rgb(196, 68, 201);
+  opacity: 0.5;
+  
+}
+.button3:hover {
+  background-color:#d3249f;
   transition: 0.7s;
 }
 .top {
@@ -27,6 +72,7 @@
     border-top: 8px solid #bbb;
     border-radius: 5px;
     width: 800px;
+    opacity: 0.5;
   }
   .footer {
     margin-left: auto;
@@ -38,6 +84,7 @@
     color: black;
     text-align: center;
     border-radius: 10px;
+    opacity: 0.5;
   }
 
   
@@ -51,9 +98,8 @@
 
   @media only screen and (max-width:800px) {
     /* For tablets: */
-    .footer {
+    .footer, .button1, .button2, .button3 {
       width: 80%;
       padding: 0;
     }
-
-\
+    
