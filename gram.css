@@ -1,6 +1,6 @@
 body {
     font-family: 'Trebuchet MS', sans-serif; 
-    background-image: url('https://github.com/PGWECN/Brand-Kit/blob/Images/PGWECN%20Logos/Keefy/GiraffeGil.png?raw=true');
+    background-image: linear-gradient(purple, pink);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
