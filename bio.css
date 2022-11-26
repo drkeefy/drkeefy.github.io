@@ -81,7 +81,7 @@
   
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
-      .footer {
+    .footer, .button1, .button2, .button3, hr.rounded, .typed-out  {
       width: 100%;
 
     }
@@ -89,21 +89,8 @@
 
   @media only screen and (max-width:800px) {
     /* For tablets: */
-    .footer, .button1, .button2, .button3, hr.rounded {
+    .footer, .button1, .button2, .button3, hr.rounded, .typed-out {
       width: 80%;
       padding: 0;
     }
     
-    .typed-out{
-      overflow: hidden;
-      border-right: .15em solid orange;
-      white-space: nowrap;
-      animation: 
-        typing 1s forwards;
-      font-size: 1.6rem;
-      width: 0;
-    }
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
