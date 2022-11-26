@@ -1,7 +1,7 @@
 .button1 {
     
   border: none;
-  color: white;
+  background: linear-gradient(aqua, blue);
   padding: 20px;
   width: 75%;
   text-align: center;
@@ -22,7 +22,7 @@
 .button2 {
     
   border: none;
-  color: rgb(63, 46, 46);
+  background: linear-gradient(red, black);
   padding: 20px;
   width: 75%;
   text-align: center;
@@ -36,16 +36,11 @@
   opacity: 0.5;
   
 }
-.button2:hover {
-  background-color:#ad002b;
-  transition: 0.7s;
-}
-
 
 .button3 {
     
   border: none;
-  color: white;
+  background: linear-gradient(purple, pink);
   padding: 20px;
   width: 75%;
   text-align: center;
@@ -58,10 +53,6 @@
   box-shadow: 0px 0px 2px 2px rgb(196, 68, 201);
   opacity: 0.5;
   
-}
-.button3:hover {
-  background-color:#d3249f;
-  transition: 0.7s;
 }
 .top {
     border-radius: 50%;
