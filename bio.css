@@ -98,7 +98,7 @@
 
   @media only screen and (max-width:800px) {
     /* For tablets: */
-    .footer, .button1, .button2, .button3 {
+    .footer, .button1, .button2, .button3, hr.rounded {
       width: 80%;
       padding: 0;
     }
