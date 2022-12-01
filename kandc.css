@@ -64,6 +64,22 @@
 }
 
 
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .navbar, .blog, .footer, hr.rounded   {
+      width: 100%;
+
+    }
+  }
+
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .navbar, .blog,  .text, .title, .footer, hr.rounded {
+      width: 80%;
+      padding: 0;
+    }
+
+
 
 
 .blog {
