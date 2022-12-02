@@ -88,19 +88,9 @@ hr.rounded {
     }
   }
 
-  @media only screen and (max-width:800px) {
+  @media only screen and (max-width:800px) 
     /* For tablets: */
-    .navbar, .blog,  .text, .title, .footer, hr.rounded {
+    .navbar, .blog,  .text, .title, .footer, hr.rounded { 
       width: 80%;
       padding: 0;
     }
-    .footer {
-        position: center;
-        left: 0;
-        bottom: 0;
-        width: 45%;
-        background-color: cadetblue;
-        color: black;
-        text-align: center;
-        border-radius: 10px;
-      }
