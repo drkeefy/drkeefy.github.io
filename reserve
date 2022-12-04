@@ -2,10 +2,6 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portfolio!</title>
-    <link rel="stylesheet" href="kandc.css">
-    <link rel="icon" type="image/x-icon" href="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/Keefy/keefyalien.png?raw=true">
-  <style></style>
 <style>
 * {
   box-sizing: border-box;
@@ -171,7 +167,7 @@ h1 {
     <div class="content">
     <img src="https://lh3.googleusercontent.com/fYCiwK5wRinlvQmvpI0yxlQlrz_pI6zl1Y5u_rw8jv-JKChaIIgC0cXtxZRcVrePzSzsclLLLNsSDnppy-PRviMBK50lnZcTW_PcbxnDGdmx6Ol-4vFEqrUz3OfxXsv3dxmRqN21Ig=w2400" alt="KeefyBanner" style="width:100%">
       <h4>Keefy Banner</h4>
-      <p>Custom cool looking banner with social icons, a gradient background, and a quick-based </p>
+      <p>Custom cool looking banner with social icons, a gradient background, and a quick-based signature</p>
 
    
   </div>
