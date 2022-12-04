@@ -1,98 +1,38 @@
 body {
-    font-family: 'Trebuchet MS', sans-serif; 
-    background-image: linear-gradient(to bottom, rgb(0, 129, 204), white);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url('https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/Social%20icons/image_2022-12-04_104856444.png?raw=true');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+background-size: cover;
+font-family: 'Trebuchet MS', sans-serif; 
 }
-.top {
-    border-radius: 50%;
-    border: 5px solid #555;
-  }
-
-  .footer {
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    bottom: 0;
-    width: 45%;
-    background-color: cadetblue;
-    color: black;
-    text-align: center;
-    border-radius: 10px;
-  }
-
-  
-  @media only screen and (max-width:500px) {
-    /* For mobile phones: */
-      .footer, hr.rounded, .spotify {
-      width: 100%;
-
-    }
-  }
-
-  @media only screen and (max-width:800px) {
-    /* For tablets: */
-    .footer hr.rounded, .spotify{
-      width: 80%;
-      padding: 0;
-    }
-
-    @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
-
-body {
-    margin: 0px;
-}
-.title-word {
-  animation: color-animation 4s linear infinite;
-}
-
-.title-word-1 {
-  --color-1: #DF8453;
-  --color-2: #3D8DAE;
-  --color-3: #E4A9A8;
-}
-
-.title-word-2 {
-  --color-1: #DBAD4A;
-  --color-2: #ACCFCB;
-  --color-3: #17494D;
-}
-
-.title-word-3 {
-  --color-1: #ACCFCB;
-  --color-2: #E4A9A8;
-  --color-3: #ACCFCB;
-}
-
-.title-word-4 {
-  --color-1: #3D8DAE;
-  --color-2: #DF8453;
-  --color-3: #E4A9A8;
-}
-
-@keyframes color-animation {
-  0%    {color: var(--color-1)}
-  32%   {color: var(--color-1)}
-  33%   {color: var(--color-2)}
-  65%   {color: var(--color-2)}
-  66%   {color: var(--color-3)}
-  99%   {color: var(--color-3)}
-  100%  {color: var(--color-1)}
-}
-
-/* Here are just some visual styles. 🖌 */
-
-.container {
-  display: grid;
-  place-items: center;  
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position:fixed(1);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
   text-align: center;
-  height: 100vh
+  font-family: 'Trebuchet MS', sans-serif; 
 }
-
-.title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  font-size: 8.5vw;
-  text-transform: uppercase;
-}
+.footer {
+  position: center;
+   left: 0;
+   bottom: 0;
+   width: 45%;
+   background-color: cadetblue;
+   color: black;
+   text-align: center;
+   border-radius: 10px;
+   position: fixed(1);
+   top: 75%;
+   left: 75%;
+ }
