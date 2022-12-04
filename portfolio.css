@@ -14,6 +14,22 @@
     margin-top: 8px;
     vertical-align: middle;
   }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .colum, .row, .colum img   {
+      width: 100%;
+
+    }
+  }
+
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .colum, .row, .colum img {
+      width: 80%;
+      padding: 0;
+    }
+
+
   .footer {
     position: center;
      left: 0;
