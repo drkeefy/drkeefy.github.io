@@ -1,1 +1,1 @@
-_vercel.keithkhaotic.github.io to use keithkhaotic.github.io 
+vc-domain-verify=keithkhaotic.github.io,1f264a7c29f7b37d710d
