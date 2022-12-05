@@ -24,7 +24,7 @@
 
   @media only screen and (max-width:800px) {
     /* For tablets: */
-    .colum, .row, .colum img, .content, .main {
+    .colum logos, .row, .colum img, .content, .main {
       width: 80%;
       padding: 0;
     }
