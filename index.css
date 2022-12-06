@@ -26,7 +26,7 @@ background-size: cover;
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position:fixed(1);
-    top: 75%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -38,7 +38,7 @@ background-size: cover;
   }
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
-      .footer, hr.rounded, .spotify {
+      .footer, hr.rounded, .bg-text, .spotify {
       width: 100%;
 
     }
