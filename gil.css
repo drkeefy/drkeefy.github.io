@@ -88,9 +88,10 @@ hr.rounded {
     }
   }
 
-  @media only screen and (max-width:800px) 
+  @media only screen and (max-width:800px) {
     /* For tablets: */
     .navbar, .blog,  .text, .title, .footer, hr.rounded { 
       width: 80%;
       padding: 0;
+    }
     }
