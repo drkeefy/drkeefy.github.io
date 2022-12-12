@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .navbar {
     background-color: gray;
     margin: auto;
