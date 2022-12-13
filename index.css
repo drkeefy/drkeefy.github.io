@@ -1,53 +1,15 @@
-body {
-  background-image: url('https://lh3.googleusercontent.com/Vaf_gbnh3g-5rzDK6MShppZtQ4VH61SNdQGiMzjgbm-ytSYXc5U1icREKV5QicJtYSKaRC0Gnof8v0agEyKZt-VUy7DsSvsH8oN5lP0CAAYtHh02esVkltznKgNESlWVSXksz5HL=w2400');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-attachment: fixed;
-background-size: cover;
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+    .buttonredirect {
+    width: 100%;
+
+  }
 }
 
-  .footer {
-   position: center;
-    left: 0;
-    bottom: 0;
-    width: 45%;
-    background-color: cadetblue;
-    color: black;
-    text-align: center;
-    border-radius: 10px;
-    position: fixed(1);
-    top: 75%;
-    left: 75%;
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+ .buttonredirect {
+    width: 80%;
+    padding: 0;
   }
-  .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position:fixed(1);
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    z-index: 2;
-    width: 60%;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Trebuchet MS', sans-serif; 
-  }
-  @media only screen and (max-width:500px) {
-    /* For mobile phones: */
-      .footer, hr.rounded, .bg-text, .spotify {
-      width: 100%;
-
-    }
-  }
-
-  @media only screen and (max-width:800px) {
-    /* For tablets: */
-    .footer hr.rounded, .spotify{
-      width: 80%;
-      padding: 0;
-    }
 
