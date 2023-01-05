@@ -1,54 +1,64 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keefy FRFR?</title>
+    <title>@drkeefy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://github.com/KeithKhaotic/KeithKhaotic/blob/brand-kit/Keefy-BrandKit/Logos/keefyalien.png?raw=true">
+   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <style>
-        body {
-  background-color: black;
-  background-repeat: no-repeat;
-  background-position: right;
-  background-attachment: fixed;
-background-size: cover;
+  <center>
+  <div class="all">
+    <div class="menu-container">
+        <div class="menu-toggle">
+            <i class="fas fa-kiss	"></i>
+        </div>
+        <li style="--i:0" index="1" }> <a href="https://www.instagram.com/drkeefy/?hl=en"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li style="--i:1" index="2"> <a  href="https://discord.gg/3FteQYAsj5"><i class="fab fa-discord"></i></a>
+        </li>
+        <li style="--i:2" index="3"> <a  href="mailto:keefybusiness@gmail.com"><i class="fas fa-envelope"></i></a>
+        </li>
+        <li style="--i:3" index="4"> <a  href="https://www.buymeacoffee.com/DrKeefy"><i class="fas fa-coffee"></i></a>
+        </li>
+        <li style="--i:4" index="5"> <a  href="https://www.beatstars.com/drkeefy"><i class="fas fa-microphone-alt"></i></a>
+        </li>
+        <li style="--i:5" index="6"> <a  href="index.html"><i class="fas fa-link"></i></a>
+        </li>
+        <li style="--i:6" index="7"> <a  href="https://twitter.com/drkeefy"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li style="--i:7" index="8"> <a  href="https://www.youtube.com/@drkeefymelody/featured"><i class="fab fa-youtube"></i></a>
+        </li>
+    </div>
+  </div>
+</center>
+    <script>
+     
 
-}
-.text {
-  color:rgb(128, 0, 0);
-  font-family:'Trebuchet MS', sans-serif; 
-  top: 50%;
-  left: 50%;
-}
-.buttonredirect {
-  font-family:'Trebuchet MS', sans-serif; 
-  font-size: 20;
-  background-color: transparent;
-  border-radius: 10%;
-  color: white;
-  border-color: rgb(226, 98, 13);
-  width: 300px;
-  height: 50px;
-}
-    </style>
-     <div class="text">
-        <center>
-          <img src="https://github.com/KeithKhaotic/KeithKhaotic/blob/brand-kit/Keefy-BrandKit/Logos/KEEFY%20FANART.png?raw=true" height="200"
-          style="border-radius: 90%">
-          <br>
-         <img src="https://github.com/KeithKhaotic/KeithKhaotic/blob/brand-kit/Keefy-BrandKit/Logos/drkeefy%20watermark.png?raw=true" height="100">
-        <br>
-        <br>
-        
-        <a href="https://twitter.com/drkeefy"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/press/2021%20Twitter%20logo%20-%20white.png?raw=true" height="40"></a>
-        <a href="https://github.com/KeithKhaotic"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/press/GitHub-Mark-Light-120px-plus.png?raw=true" height="40"></a>
-        <a href="https://instagram.com/drkeefy"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/press/Instagram_Glyph_White.png?raw=true" height="40"></a>
-        <a href="https://www.facebook.com/profile.php?id=100087590284105"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/Social%20icons/60fea6c83d624000048712b7.png?raw=true" height="40"></a>
-        <a href="https://www.twitch.tv/drkeefy"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/Social%20icons/image_2022-12-06_155726270.png?raw=true" height="40"></a>
-        <a href="https://youtube.com/@drkeefy"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/Social%20icons/kindpng_6012763.png?raw=true" height="40" widht="10px"></a>
-        <br>
-        <br>
-        <a href="music.html"><button class="buttonredirect">Stream New!</button></a>
+
+        const container = document.querySelector(".menu-container");
+        const toggle = document.querySelector(".menu-toggle");
+        var menuExpanded = false;
+        toggle.addEventListener("click", () => {
+            if (!menuExpanded) {
+                container.classList.add('active')
+                menuExpanded=true;
+            } else {
+                container.classList.remove('active')
+                menuExpanded=false;
+
+            }
+        })
+
+
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
