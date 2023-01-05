@@ -16,7 +16,7 @@ body {
 
 .menu-container {
     position: relative;
-    width: auto;
+    width: 400px;
     height: 400px;
     display: flex !important;
     justify-content: center;
