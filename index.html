@@ -1,74 +1,383 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🎙Doctor Keefy ✞</title>
-  <link rel="stylesheet" href="bio.css">
-  <link rel="icon" type="image/x-icon" href="https://github.com/KeithKhaotic/KeithKhaotic/blob/brand-kit/Keefy-BrandKit/Logos/keefyalien.png?raw=true">
-  <meta name="google-site-verification" content="ZoeKEp815JMVBnc5Vt-5zBYmD26wWE4TvaCx5PDxW_8" />
-</head>
-<style>body {
-  background-color: black;
-  background-repeat: no-repeat;
-  background-position: right;
-  background-attachment: fixed;
-background-size: cover;
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
-.text {
-  color:rgb(128, 0, 0);
-  font-family:'Trebuchet MS', sans-serif; 
-  top: 50%;
-  left: 50%;
-}
-.buttonredirect {
-  font-family:'Trebuchet MS', sans-serif; 
-  font-size: 20;
-  background-color: transparent;
-  border-radius: 10%;
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
   color: white;
-  border-color: rgb(226, 98, 13);
-  width: 300px;
-  height: 50px;
 }
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: %; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@mixin glitchCopy { 
+		content: attr(data-text);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+}
+
+.glitch {
+	position: relative;
+	color: rgb(132, 112, 112);
+	font-size: 3em;
+	letter-spacing: .5em;
+	/* Animation provies a slight random skew. Check bottom of doc
+	for more information on how to random skew. */
+	animation: glitch-skew 1s infinite linear alternate-reverse;
+	
+
+  }
+}
+:root{
+    /* color type A */
+    --line_color : #555555 ;
+    --back_color : #FFECF6  ;
+
+    /* color type B */
+    /* --line_color : #1b1919 ;
+    --back_color : #E9ECFF  ; */
+
+    /* color type C */
+    /* --line_color : #00135C ;
+    --back_color : #DEFFFA  ; */
+}
+
+.button{
+    position : relative ;
+    z-index : 0 ;
+    width : 240px ;
+    height : 56px ;
+    text-decoration : none ;
+    font-size : 14px ; 
+    font-weight : bold ;
+    color : var(--line_color) ;
+    letter-spacing : 2px ;
+    transition : all .3s ease ;
+}
+.button__text{
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    width : 100% ;
+    height : 100% ;
+}
+.button::before,
+.button::after,
+.button__text::before,
+.button__text::after{
+    content : '' ;
+    position : absolute ;
+    height : 3px ;
+    border-radius : 2px ;
+    background : var(--line_color) ;
+    transition : all .5s ease ;
+}
+.button::before{
+    top : 0 ;
+    left : 54px ;
+    width : calc( 100% - 56px * 2 - 16px ) ;
+}
+.button::after{
+    top : 0 ;
+    right : 54px ;
+    width : 8px ;
+}
+.button__text::before{
+    bottom : 0 ;
+    right : 54px ;
+    width : calc( 100% - 56px * 2 - 16px ) ;
+}
+.button__text::after{
+    bottom : 0 ;
+    left : 54px ;
+    width : 8px ;
+}
+.button__line{
+    position : absolute ;
+    top : 0 ;
+    width : 56px ;
+    height : 100% ;
+    overflow : hidden ;
+}
+.button__line::before{
+    content : '' ;
+    position : absolute ;
+    top : 0 ;
+    width : 100px ;
+    height : 100px ;
+    box-sizing : border-box ;
+    border-radius : 300px ;
+    border : solid 3px var(--line_color) ;
+}
+.button__line:nth-child(1),
+.button__line:nth-child(1)::before{
+    left : 0 ;
+}
+.button__line:nth-child(2),
+.button__line:nth-child(2)::before{
+    right : 0 ;
+}
+.button:hover{
+    letter-spacing : 6px ;
+}
+.button:hover::before,
+.button:hover .button__text::before{
+    width : 8px ;
+}
+.button:hover::after,
+.button:hover .button__text::after{
+    width : calc( 100% - 56px * 2 - 16px ) ;
+}
+.button__drow1,
+.button__drow2{
+    position : absolute ;
+    z-index : -1 ;
+    border-radius : 16px ;
+    transform-origin : 16px 16px ;
+}
+.button__drow1{
+    top : -16px ;
+    left : 40px ;
+    width : 32px ;
+    height : 0;
+    transform : rotate( 30deg ) ;
+}
+.button__drow2{
+    top : 44px ;
+    left : 77px ;
+    width : 32px ;
+    height : 0 ;
+    transform : rotate(-127deg ) ;
+}
+.button__drow1::before,
+.button__drow1::after,
+.button__drow2::before,
+.button__drow2::after{
+    content : '' ;
+    position : absolute ;
+}
+.button__drow1::before{
+    bottom : 0 ;
+    left : 0 ;
+    width : 0 ;
+    height : 32px ;
+    border-radius : 16px ;
+    transform-origin : 16px 16px ;
+    transform : rotate( -60deg ) ;
+}
+.button__drow1::after{
+    top : -10px ;
+    left : 45px ;
+    width : 0 ;
+    height : 32px ;
+    border-radius : 16px ;
+    transform-origin : 16px 16px ;
+    transform : rotate( 69deg ) ;
+}
+.button__drow2::before{
+    bottom : 0 ;
+    left : 0 ;
+    width : 0 ;
+    height : 32px ;
+    border-radius : 16px ;
+    transform-origin : 16px 16px ;
+    transform : rotate( -146deg ) ;
+}
+.button__drow2::after{
+    bottom : 26px ;
+    left : -40px ;
+    width : 0 ;
+    height : 32px ;
+    border-radius : 16px ;
+    transform-origin : 16px 16px ;
+    transform : rotate( -262deg ) ;
+}
+.button__drow1,
+.button__drow1::before,
+.button__drow1::after,
+.button__drow2,
+.button__drow2::before,
+.button__drow2::after{
+    background : var( --back_color ) ;
+}
+.button:hover .button__drow1{
+    animation : drow1 ease-in .06s ;
+    animation-fill-mode : forwards ;
+}
+.button:hover .button__drow1::before{
+    animation : drow2 linear .08s .06s ;
+    animation-fill-mode : forwards ;
+}
+.button:hover .button__drow1::after{
+    animation : drow3 linear .03s .14s ;
+    animation-fill-mode : forwards ;
+}
+.button:hover .button__drow2{
+    animation : drow4 linear .06s .2s ;
+    animation-fill-mode : forwards ;
+}
+.button:hover .button__drow2::before{
+    animation : drow3 linear .03s .26s ;
+    animation-fill-mode : forwards ;
+}
+.button:hover .button__drow2::after{
+    animation : drow5 linear .06s .32s ;
+    animation-fill-mode : forwards ;
+}
+
 </style>
+</head>
 <body>
- <!--Test-->
-  <div class="text">
-<center>
-  <img src="https://github.com/KeithKhaotic/KeithKhaotic/blob/brand-kit/Keefy-BrandKit/Logos/KEEFY%20FANART.png?raw=true" height="200"
-  style="border-radius: 90%">
-  <br>
- <img src="https://github.com/KeithKhaotic/KeithKhaotic/blob/brand-kit/Keefy-BrandKit/Logos/drkeefy%20watermark.png?raw=true" height="100">
-<br>
-<br>
-
-<a href="https://twitter.com/drkeefy"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/press/2021%20Twitter%20logo%20-%20white.png?raw=true" height="40"></a>
-<a href="https://github.com/KeithKhaotic"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/press/GitHub-Mark-Light-120px-plus.png?raw=true" height="40"></a>
-<a href="https://instagram.com/drkeefy"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/press/Instagram_Glyph_White.png?raw=true" height="40"></a>
-<a href="https://www.facebook.com/profile.php?id=100087590284105"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/Social%20icons/60fea6c83d624000048712b7.png?raw=true" height="40"></a>
-<a href="https://www.twitch.tv/drkeefy"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/Social%20icons/image_2022-12-06_155726270.png?raw=true" height="40"></a>
-<a href="https://youtube.com/@drkeefy"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/Social%20icons/kindpng_6012763.png?raw=true" height="40" widht="10px"></a>
-<br>
-<br>
-
-<a href="https://discord.gg/p3t7YjDBrS"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/Social%20icons/pngfind.com-discord-icon-png-283551.png?raw=true" height="40px"></a>
-<a href="https://guilded.gg/Keefy"><img src="https://github.com/KeithKhaotic/KeithKhaotic.github.io/blob/Images/Social%20icons/image_2022-12-06_161654662.png?raw=true" height="50"></a>
-<br>
-<br>
-<a href="https://pgwecn.is-really.cool"><button class="buttonredirect">PGWECN - Mental Health</button></a>
-<br>
-<br>
-<a href="https://www.buymeacoffee.com/DrKeefy"><button class="buttonredirect">Comissions - Donate to me!</button></a>
-<br>
-<br>
-<a href="portfolio.html"><button class="buttonredirect">My Music & Art portfolio!</button></a>
 
 
-<script src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=pt_e2f1b7f2179586b830a4b8428a608d"></script>
 
-</center>
+<div class="row">
+  <div class="side">
+   		<h1 class="glitch" data-text="
+glitch"><img src="https://lh3.googleusercontent.com/qOJeI7nF4UFxUUYlOYt3JjoxvSiQgmRO85JPDahNSpjs9b7M7Tz7q5SC-n8oGGVOP5UQTlUW3iP-MTOinQViZYiJh864Nv1gP23ZIryoGd8W0gUQq7bHX-PZ_yIh_cFkUbRSuUbMzA=w2400" width="50px" height="50px" border-radius: 5-0> drkeefy</h1>
+<div class="container">
+
+  <a href="#" class="button">
+    
+    <div class="button__line"></div>
+    <span class="button__text"><h2>About Me</h2></span>
+    <br>
+    <span class="button__text"><h2>My Equipment</h2></span>
+
+  </a>
+
 </div>
+  </div>
+  <div class="main">
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Dec 7, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
 </body>
 </html>
