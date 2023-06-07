@@ -16,6 +16,18 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+.zoom {
+  padding: 0px;
+  transition: transform .2s; /* Animation */
+  width: 340px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.45); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 </style>
 <body class="w3-black">
 
@@ -62,8 +74,20 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    
+    <div class="zoom">
+      <center>
+    <img src="Assets/cake.jpg" height="40" style="border-radius: 30px;">
+    <img src="Assets/greenbandana-transformed.png" height="30">
+    <img src="Assets/disroot.png" height="30">
+    <img src="Assets/glhf.svg" height="30">
+    <img src="Assets\whitehat.png" height="30">
+    <img src="Assets\NoBaked_Logo_(1)-transformed.png" height="35">
+    <img src="Assets\kick.png" height="30">
     <h2 class="w3-text-light-grey">drkeefy</h2>
-    <hr style="width:200px" class="w3-opacity">
+  </center>
+  </div>
+    <hr style="width:100%" class="w3-opacity">
     <p>"I'm a producer, musician, photographer, graphic designer, and editor from Midwestern Missouri, living in the area of Houston, TX. I love to make music & beats and am ALWAYS welcome to connecting with new clients & rappers to make music with. Feel free to <a href="#contact">contact me</a>. I'm also a mental health advocate and have my own newsletter for producers & aspiring artists. Most of my skills include photo-editing, photography, beatmaking, sampling, and more!"
     </p>
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
